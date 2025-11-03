@@ -1,0 +1,220 @@
+body{
+    margin: auto 7%;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../images/background-img.png');
+    font-family:"Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(237, 242, 253, 0.925);
+    background-color: rgb(36, 46, 53);
+    padding: 10px 30px;
+    margin-top: 3px;
+    border-radius: 40px;
+}
+
+#strat{
+    font-size: 22px;
+    font-weight:500;
+    letter-spacing: 2px;
+}
+nav ul{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    font-size: 18px;
+    color: rgba(224, 234, 252, 0.925);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(253, 184, 55);;
+    cursor: pointer;
+}
+
+nav ul li a.active{
+    color: rgb(253, 184, 55);
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: rgba(224, 234, 252, 0.925);
+}
+
+.dropdown span{
+    font-size: 18px;
+    color: rgba(224, 234, 252, 0.925);
+}
+
+.dropdown i{
+    margin-left: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.dropdown i:hover{
+    color: rgb(253, 184, 55);
+}
+
+nav div{
+    background-color: rgb(253, 184, 55);
+    border: none;
+    border-radius: 40px;
+    padding: 12px 20px;
+}
+
+nav div a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+nav div:hover{
+    background-color: transparent;
+    border: 1px solid rgb(175, 174, 174);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.headings{
+    display: grid;
+    gap: 30px;
+    color: rgba(237, 242, 253, 0.925);
+    border-bottom: 1px solid rgba(67, 84, 99, 0.486);
+    max-width:520px;
+    padding: 30px 0px;
+    letter-spacing: 2px;
+    transform: uppercase;
+}
+.headings h1{
+    font-size: 90px;
+    margin: 0;
+    font-weight: 800;
+
+}
+
+.headings h2{
+    font-size: 24px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.paragragh{
+    margin-top: 40px;
+    
+}
+
+.paragragh p{
+    color: rgb(175, 174, 174);
+    line-height: 1.7;
+    font-size: 20px;
+}
+
+.explore{
+    margin-top: 60px;
+    max-width: fit-content;
+    background-color: transparent;
+    border: 1px solid rgb(175, 174, 174);
+    border-radius: 40px;
+}
+
+.explore a{
+    text-decoration: none;
+    padding: 25px 40px;
+    color: rgba(237, 242, 253, 0.925);
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center; 
+    gap: 18px;
+}
+
+.explore:hover{
+    background-color: rgb(253, 184, 55);;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.text-container{
+    /* border: 1px solid rgb(51, 75, 95); */
+    max-width: 54%; 
+    flex: 1;
+}
+
+.image-container{
+    /* border: 1px solid rgb(51, 75, 95); */
+    max-width: 35%;
+    height: 600px;
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding: 0;
+    margin-top: 110px;
+    background-image: url('../images/hero-flower.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.campaigns{
+    border: 1px solid rgba(255, 255, 255, 0.137);
+    color: rgba(237, 242, 253, 0.925);
+    margin-bottom: 40px;
+    padding: 18px 25px 25px 25px;
+    background-color: transparent;
+    border-radius: 10px;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+.campaigns div{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.campaigns div span{
+    font-size: 60px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.campaigns div i{
+    margin-top: 12px;
+    font-size: 40px;
+    cursor: pointer;
+    /* background-color: rgb(253, 184, 55); */
+    color: rgb(253, 184, 55);
+    padding: 0;
+}
+
+.campaigns div i:hover{
+    color: rgba(237, 242, 253, 0.925);
+}
+
+.campaigns h4{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 300;
+}
